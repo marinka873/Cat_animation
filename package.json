@@ -1,0 +1,38 @@
+{
+  "name": "cat_animation",
+  "version": "1.0.0",
+  "description": "Cat animation",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinka873/Cat_animation.git"
+  },
+  "keywords": [
+    "scss",
+    "animation",
+    "cat"
+  ],
+  "author": "Marina Timonovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinka873/Cat_animation/issues"
+  },
+  "homepage": "https://github.com/marinka873/Cat_animation#readme",
+  "dependencies": {
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
